@@ -16,7 +16,8 @@ import json
 import numpy as np
 import csv
 import multiprocessing as mp
-from pyemd import emd_with_flow, emd
+from pyemd import emd
+#from pyemd import emd_with_flow, emd
 
 #youtubedictn = {}
 distances = []
@@ -351,7 +352,7 @@ def sortnoutput():
 
 	wf.close()
 
-sortnoutput()
+
 
 
 
